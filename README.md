@@ -73,8 +73,7 @@ Il y a quelques pré-requis pour lancer le programme (et leur lien de dl parcequ
 1. Base de données des logs (https://cdn.discordapp.com/attachments/648842436830953486/1165996292632232026/logsTpImmo.sql)
 
 Voir aussi les identifiants de connexion et ip à modifier.
-Si vous avez la flemme (ce que je peux comprendre, moi aussi j'ai la flemme) Ou que vous voulez voir
-la totale, avec des imgaes prêtes et la base prêtes et toouuuut
+Si vous voulez voir tout fonctionnel, avec des biens tests et des images :
 
 Voici une VM toute prête : (https://cloud.varin.ovh/s/WGm7HD5mExn4Nd6)
  et le lien pour vérifier si le cloud fonctionne bien (https://status.varin.ovh/)
