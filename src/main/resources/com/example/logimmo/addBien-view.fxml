@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.logimmo.AddBienController">
+   <children>
+      <ListView fx:id="photos" layoutX="407.0" layoutY="271.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="pieces" layoutX="46.0" layoutY="271.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="labelPieces" layoutX="121.0" layoutY="243.0" text="Pièces" />
+      <Label fx:id="labelPhotos" layoutX="493.0" layoutY="243.0" text="Photos" />
+      <Button fx:id="btnDPi" layoutX="263.0" layoutY="360.0" mnemonicParsing="false" onAction="#deletePiece" text="Supprimer une pièce" />
+      <Button fx:id="btnAPi" layoutX="271.0" layoutY="304.0" mnemonicParsing="false" onAction="#addPiece" text="Ajouter une pièce" />
+      <Button fx:id="btnEPi" layoutX="273.0" layoutY="414.0" mnemonicParsing="false" onAction="#editPiece" text="Modifier une pièce" />
+      <Button fx:id="btnAph" layoutX="620.0" layoutY="304.0" mnemonicParsing="false" onAction="#addPhoto" text="Ajouter une photo" />
+      <Button fx:id="btnDph" layoutX="620.0" layoutY="360.0" mnemonicParsing="false" onAction="#deletePhoto" text="Supprimer une photo" />
+      <Button layoutX="666.0" mnemonicParsing="false" onAction="#save" prefHeight="78.0" prefWidth="92.0" text="Enregistrer" />
+      <TextField fx:id="rue" layoutX="91.0" layoutY="48.0" promptText="Rue" />
+      <TextField fx:id="cp" layoutX="91.0" layoutY="104.0" promptText="Code Postale" />
+      <TextField fx:id="prix" layoutX="252.0" layoutY="104.0" promptText="Prix" />
+      <TextField fx:id="ville" layoutX="92.0" layoutY="155.0" promptText="Ville" />
+      <TextField fx:id="annee" layoutX="252.0" layoutY="48.0" promptText="Annee" />
+      <TextArea fx:id="description" layoutX="425.0" layoutY="48.0" prefHeight="125.0" prefWidth="200.0" promptText="Description" />
+      <CheckBox fx:id="isLibre" layoutX="302.0" layoutY="159.0" mnemonicParsing="false" text="Libre" />
+      <Label layoutX="145.0" layoutY="22.0" text="Rue" />
+      <Label layoutX="302.0" layoutY="22.0" text="Annee" />
+      <Label layoutX="132.0" layoutY="79.0" text="Code Postale" />
+      <Label layoutX="309.0" layoutY="79.0" text="Prix" />
+      <Label layoutX="144.0" layoutY="138.0" text="Ville" />
+      <Label layoutX="481.0" layoutY="22.0" text="Description" />
+   </children>
+</AnchorPane>

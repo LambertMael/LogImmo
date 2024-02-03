@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="185.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.logimmo.AddPhotoController">
+   <children>
+      <Button layoutX="40.0" layoutY="47.0" mnemonicParsing="false" onAction="#choose" text="Choisir un fichier" />
+      <Label fx:id="nameLabel" layoutX="56.0" layoutY="81.0" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="56.0" layoutY="132.0" mnemonicParsing="false" onAction="#save" text="Enregistrer" />
+      <Label fx:id="errorLabel" layoutX="52.0" layoutY="195.0" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

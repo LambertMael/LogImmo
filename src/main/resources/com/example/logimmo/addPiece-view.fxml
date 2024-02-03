@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="643.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.logimmo.AddPieceController">
+    <children>
+        <ListView fx:id="photos" layoutX="40.0" layoutY="172.0" prefHeight="200.0" prefWidth="200.0" />
+        <ListView fx:id="equipements" layoutX="40.0" layoutY="402.0" prefHeight="200.0" prefWidth="200.0" />
+        <Label fx:id="labelEqu" layoutX="108.0" layoutY="377.0" text="Equipement" />
+        <Label fx:id="labelPho" layoutX="122.0" layoutY="139.0" text="Photos" />
+        <Button fx:id="btnEd" layoutX="251.0" layoutY="502.0" mnemonicParsing="false" onAction="#deleteEquipement" text="Supprimer un équipement" />
+        <Button fx:id="btnEa" layoutX="259.0" layoutY="454.0" mnemonicParsing="false" onAction="#addEquipement" text="Ajouter un équipement" />
+        <Button fx:id="btnEe" layoutX="256.0" layoutY="550.0" mnemonicParsing="false" onAction="#editEquipement" text="Modifier un équipement" />
+        <Button fx:id="btnPa" layoutX="271.0" layoutY="238.0" mnemonicParsing="false" onAction="#addPhoto" text="Ajouter une photo" />
+        <Button fx:id="btnPd" layoutX="263.0" layoutY="196.0" mnemonicParsing="false" onAction="#deletePhoto" text="Supprimer une photo" />
+        <Button layoutX="444.0" layoutY="3.0" mnemonicParsing="false" onAction="#save" prefHeight="64.0" prefWidth="107.0" text="Enregistrer" />
+        <TextField fx:id="libelle" layoutX="48.0" layoutY="67.0" promptText="Libelle (Ex : salon)" />
+        <TextField fx:id="surface" layoutX="254.0" layoutY="67.0" promptText="Surface en m²" />
+      <Label layoutX="91.0" layoutY="44.0" text="Libelle" />
+      <Label layoutX="308.0" layoutY="44.0" text="Surface" />
+    </children>
+</AnchorPane>
